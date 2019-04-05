@@ -1,6 +1,6 @@
 'use strict';
 
-require('dotenv').load();
+// require('dotenv').load();
 
 var express     = require('express');
 var bodyParser  = require('body-parser');
@@ -11,7 +11,7 @@ var apiRoutes         = require('./routes/api.js');
 var fccTestingRoutes  = require('./routes/fcctesting.js');
 var runner            = require('./test-runner');
 
-var helmet = require('helmet')
+var helmet = require('helmet');
 
 var app = express();
 
